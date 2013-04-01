@@ -4,7 +4,7 @@
         Label1.Text = "Pending"
         logwindow.writetolog("SYSTEM STARTED")
         'Put here any message boxes about current errors
-        MsgBox("Network status detection is intermittent on Windows 8. Please restart if you recieve connection problems prompt!", MsgBoxStyle.Exclamation, "Current App Update - 1.1.2")
+        MsgBox("Network status detection is intermittent on Windows 8. Please restart if you recieve connection problems prompt!", MsgBoxStyle.Exclamation, "Current App Update - 1.1.3.2")
         'Move window to bottom left
         Dim working_area As Rectangle = _
     SystemInformation.WorkingArea
