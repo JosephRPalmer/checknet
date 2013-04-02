@@ -28,11 +28,13 @@
     End Function
     Function connected()
         Label1.Text = "Connected"
+        Label1.ForeColor = Color.Black
         logwindow.writetolog("Connected as of now")
         Return 1
     End Function
     Function connectionproblems()
         Label1.Text = "Connection Problems Detected"
+        Label1.ForeColor = Color.Red
         logwindow.writetolog("Connection Problems Detected")
         Return 1
     End Function
