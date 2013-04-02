@@ -33,7 +33,7 @@ Partial Class aboutapp
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Version 1.1.3.2"
+        Me.Label1.Text = "Version 1.1.4.0"
         '
         'Label2
         '
