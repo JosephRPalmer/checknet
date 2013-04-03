@@ -16,4 +16,8 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
     End Sub
+
+    Private Sub Clearlog_Click(sender As Object, e As EventArgs) Handles Clearlog.Click
+        logwindo.Clear()
+    End Sub
 End Class

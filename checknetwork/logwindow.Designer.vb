@@ -24,6 +24,7 @@ Partial Class logwindow
     Private Sub InitializeComponent()
         Me.logwindo = New System.Windows.Forms.RichTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Clearlog = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'logwindo
@@ -36,18 +37,28 @@ Partial Class logwindow
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(13, 256)
+        Me.Button1.Location = New System.Drawing.Point(12, 286)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(259, 23)
+        Me.Button1.Size = New System.Drawing.Size(260, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Close"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Clearlog
+        '
+        Me.Clearlog.Location = New System.Drawing.Point(13, 256)
+        Me.Clearlog.Name = "Clearlog"
+        Me.Clearlog.Size = New System.Drawing.Size(259, 23)
+        Me.Clearlog.TabIndex = 2
+        Me.Clearlog.Text = "Clear Log"
+        Me.Clearlog.UseVisualStyleBackColor = True
         '
         'logwindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 299)
+        Me.ClientSize = New System.Drawing.Size(284, 321)
+        Me.Controls.Add(Me.Clearlog)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.logwindo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -58,4 +69,5 @@ Partial Class logwindow
     End Sub
     Friend WithEvents logwindo As System.Windows.Forms.RichTextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Clearlog As System.Windows.Forms.Button
 End Class
