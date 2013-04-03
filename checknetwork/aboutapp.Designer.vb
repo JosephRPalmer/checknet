@@ -31,9 +31,8 @@ Partial Class aboutapp
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(100, 44)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(78, 13)
+        Me.Label1.Size = New System.Drawing.Size(0, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Version 1.1.4.0"
         '
         'Label2
         '
