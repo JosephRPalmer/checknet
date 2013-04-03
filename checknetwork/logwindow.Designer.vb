@@ -25,6 +25,7 @@ Partial Class logwindow
         Me.logwindo = New System.Windows.Forms.RichTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Clearlog = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'logwindo
@@ -48,16 +49,26 @@ Partial Class logwindow
         '
         Me.Clearlog.Location = New System.Drawing.Point(13, 256)
         Me.Clearlog.Name = "Clearlog"
-        Me.Clearlog.Size = New System.Drawing.Size(259, 23)
+        Me.Clearlog.Size = New System.Drawing.Size(131, 23)
         Me.Clearlog.TabIndex = 2
         Me.Clearlog.Text = "Clear Log"
         Me.Clearlog.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(150, 257)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(122, 23)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "Save"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'logwindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 321)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Clearlog)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.logwindo)
@@ -70,4 +81,5 @@ Partial Class logwindow
     Friend WithEvents logwindo As System.Windows.Forms.RichTextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Clearlog As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

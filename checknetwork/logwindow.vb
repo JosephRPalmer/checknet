@@ -20,4 +20,8 @@
     Private Sub Clearlog_Click(sender As Object, e As EventArgs) Handles Clearlog.Click
         logwindo.Clear()
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        logwindo.SaveFile("C:\Users\Public\networklog.txt", RichTextBoxStreamType.PlainText)
+    End Sub
 End Class
